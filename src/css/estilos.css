@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
+    background: linear-gradient(150deg, rgb(255, 147, 165), pink, #fff);
+}
+
+.cabecalho {
+    background-image: url("../imagens/coffecomplete.png");
+    display: flex;
+    flex-direction: column;
+    padding: 80px 50px;
+}
+
+.cabecalho .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.cabecalho .menu .abasdecima {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    justify-content: space-evenly;
+    text-shadow:
+    0px 0px 3px black;
+    
+}
+
+.cabecalho .logo {
+    text-align: center;
+    font-family: "Pop";
+    font-size: 70px;
+    color: #fff;
+}
+
+.home .apresentacao {
+    text-align: center;
+    padding: 35px 35px;
+}
+
+.home .apresentacao .shopbtn {
+    background-color: red;
+    border: 2px solid #fff;
+    border-radius: 7%;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    font-family: "Pop", sans-serif;
+    font-size: 25px;
+}
+
+.products {
+    padding: 70px 0 70px;
+}
+
+.products .container-produtos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.products .produtoemsi {
+    align-items: center;
+    position: relative;
+    width: 250px;
+}
+
+.products .produtoemsi img {
+    margin: 50px auto;
+    width: 100%;
+    box-shadow: 0px 1px 0px 0px black
+}
+
+.products .produtoemsi h2 {
+    width: 100%;
+    position: absolute;
+    top: 410px;
+    text-align: center;
+}
+
+.products .produtoemsi p {
+    text-align: center;
+}
+
+
+.contact .social-midias {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.contact .social-midias a i {
+    background-color: rgb(255, 50, 84);
+    border: 1px solid pink;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    transition: 0.3s;
+    text-align: center;
+    line-height: 47px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .itensfooter {
+    background-color: pink;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 5px 20px;
+}
